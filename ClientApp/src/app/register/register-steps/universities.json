@@ -1,0 +1,623 @@
+[
+  {
+    "name": "ABDULLAH GÜL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ADIYAMAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AFYON KOCATEPE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AKDENİZ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AKSARAY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ALANYA HAMDULLAH EMİN PAŞA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ALTINBAŞ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AMASYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANADOLU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKA TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA MEDİPOL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANTALYA AKEV ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ANTALYA BİLİM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ARDAHAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ARTVİN ÇORUH ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ATAŞEHİR ADIGÜZEL MESLEK YÜKSEKOKULU"
+  },
+  {
+    "name": "ATATÜRK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ATILIM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AVRASYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "AVRUPA MESLEK YÜKSEKOKULU"
+  },
+  {
+    "name": "AYDIN ADNAN MENDERES ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BAHÇEŞEHİR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BALIKESİR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BARTIN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BAŞKENT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BATMAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BAYBURT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BEYKENT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BEYKOZ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BİNGÖL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BİRUNİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BİTLİS EREN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BOĞAZİÇİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BURSA TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "BURSA ULUDAĞ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÇAĞ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÇANKAYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÇUKUROVA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "DEMİROĞLU BİLİM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "DİCLE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "DOĞUŞ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "DOKUZ EYLÜL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "DÜZCE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "EGE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ERCİYES ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ERZURUM TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "FARUK SARAÇ TASARIM MESLEK YÜKSEKOKULU"
+  },
+  {
+    "name": "FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ"
+  },
+  {
+    "name": "FENERBAHÇE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "FIRAT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GALATASARAY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GAZİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GAZİANTEP ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GEBZE TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GİRESUN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "GÜMÜŞHANE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HACETTEPE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HAKKARİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HALİÇ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HARRAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HASAN KALYONCU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HATAY MUSTAFA KEMAL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "HİTİT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "IĞDIR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ"
+  },
+  {
+    "name": "IŞIK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İBN HALDUN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İNÖNÜ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSKENDERUN TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL AREL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ATLAS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL AYDIN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL AYVANSARAY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL BİLGİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ESENYURT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL GALATA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL GEDİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL GELİŞİM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL KENT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL KÜLTÜR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL MEDENİYET ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL MEDİPOL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL OKAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL RUMELİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ŞEHİR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU"
+  },
+  {
+    "name": "İSTANBUL TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL TİCARET ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA"
+  },
+  {
+    "name": "İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTANBUL 29 MAYIS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İSTİNYE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR BAKIRÇAY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR DEMOKRASİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR EKONOMİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR KAVRAM MESLEK YÜKSEKOKULU"
+  },
+  {
+    "name": "İZMİR TINAZTEPE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ"
+  },
+  {
+    "name": "KADİR HAS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KAFKAS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KAPADOKYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KARABÜK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KARADENİZ TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KASTAMONU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KAYSERİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KIRIKKALE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KIRKLARELİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KİLİS 7 ARALIK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KOCAELİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KOÇ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KONYA GIDA VE TARIM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KONYA TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KTO KARATAY ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "LOKMAN HEKİM ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MALATYA TURGUT ÖZAL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MALTEPE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MANİSA CELÂL BAYAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MARDİN ARTUKLU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MARMARA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MEF ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MERSİN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MUNZUR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "MUŞ ALPARSLAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "NECMETTİN ERBAKAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "NİŞANTAŞI ÜNİVERSİTESİ"
+  },
+  {
+    "name": "NUH NACİ YAZGAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ONDOKUZ MAYIS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ORDU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ORTA DOĞU TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "OSMANİYE KORKUT ATA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "OSTİM TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÖZYEĞİN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "PAMUKKALE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "PİRİ REİS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SABANCI ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SAKARYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SAMSUN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SANKO ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SELÇUK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SEMERKAND BİLİM VE MEDENİYET ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SİİRT ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SİNOP ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SİVAS CUMHURİYET ÜNİVERSİTESİ"
+  },
+  {
+    "name": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ŞIRNAK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TARSUS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TED ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TOROS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TRABZON ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TRAKYA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TÜRK HAVA KURUMU ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TÜRK-ALMAN ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TÜRKİYE ULUSLARARASI İSLAM, BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "TÜRK-JAPON BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ"
+  },
+  {
+    "name": "UFUK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "UŞAK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ÜSKÜDAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YALOVA ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YAŞAR ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YEDİTEPE ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YILDIZ TEKNİK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YOZGAT BOZOK ÜNİVERSİTESİ"
+  },
+  {
+    "name": "YÜKSEK İHTİSAS ÜNİVERSİTESİ"
+  },
+  {
+    "name": "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ"
+  }
+]

@@ -1,0 +1,89 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 mx-auto">
+      <div class="text-center" *ngIf="!updateState">
+        <h3 class="text-capitalize">Hoşgeldin <b>{{name}}</b></h3>
+
+        <p><b>Üyeliğinizi tamamlamak için birkaç adım kaldı...</b></p>
+      </div>
+
+      <mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+        <mat-step [stepControl]="formGroup1">
+          <form [formGroup]="formGroup1">
+            <ng-template matStepLabel>Okuduğunuz Üniversiteyi Seçiniz</ng-template>
+            <mat-form-field class="example-full-width w-75 mt-2" appearance="fill">
+              <mat-label>Okuduğunuz Üniversite</mat-label>
+              <input type="text" matInput formControlName="university" [matAutocomplete]="auto1" required
+                minlength="10">
+              <mat-autocomplete #auto1="matAutocomplete">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option.name">
+                  {{option.name}}
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperNext>İleri</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="formGroup2">
+          <form [formGroup]="formGroup2">
+            <ng-template matStepLabel>Okuduğunuz Bölümü Seçiniz</ng-template>
+            <mat-form-field class="example-full-width w-75 mt-2" appearance="fill">
+              <mat-label>Okuduğunuz Bölüm</mat-label>
+              <input type="text" matInput formControlName="department" [matAutocomplete]="auto2" required>
+              <mat-autocomplete #auto2="matAutocomplete">
+                <mat-option *ngFor="let option of filteredOptionsBolum | async" [value]="option.bolum_name">
+                  {{option.bolum_name}}
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperNext>İleri</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="formGroup3">
+          <form [formGroup]="formGroup3">
+            <ng-template matStepLabel>Sınıfınız</ng-template>
+            <mat-form-field class="example-full-width mt-2" appearance="fill">
+              <mat-label>Sınıf</mat-label>
+              <input matInput type="number" min="0" max="7" formControlName="class" required>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperNext>İleri</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="formGroup4" [optional]="true">
+          <form class="example-form" [formGroup]="formGroup4">
+            <ng-template matStepLabel>Kendiniz Hakkında Açıklama</ng-template>
+            <mat-form-field class="example-full-width w-100 mt-2" appearance="fill">
+              <mat-label>Açıklama</mat-label>
+              <textarea matInput #message rows="5" formControlName="introduction"></textarea>
+              <!-- <mat-hint align="end">{{message.value.length}} / 256</mat-hint> -->
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperNext>İleri</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="formGroup3" [optional]="true">
+          <form class="example-form" [formGroup]="formGroup3">
+            <ng-template matStepLabel>Profil Fotoğrafı Yükleyin</ng-template>
+            <div class="mt-2">
+              <app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+            </div>
+            <div *ngIf="profilePhotoPath.length > 0">
+              <img [src]="profilePhotoPath" alt="profile-picture" style="width: 80%;">
+            </div>
+          </form>
+          <div class="text-end">
+            <button mat-raised-button color="primary" matStepperNext (click)="updateUser()">Bitir</button>
+          </div>
+        </mat-step>
+      </mat-stepper>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="row" style="margin-bottom:15px;">
+  <div class="col-md-6">
+    <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;" accept="image/*">
+    <button type="button" class="btn btn-primary d-flex align-items-center" (click)="file.click()">
+      <mat-icon color="white" class="me-2">photo_album</mat-icon>
+      Profil Resmi Yükle
+    </button>
+  </div>
+  <div class="col-md-6">
+    <span class="upload" *ngIf="progress > 0">
+      {{progress}}%
+    </span>
+    <span class="upload" *ngIf="message">
+      {{message}}
+    </span>
+  </div>
+</div>

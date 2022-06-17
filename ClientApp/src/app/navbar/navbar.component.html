@@ -1,0 +1,44 @@
+<div class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+  <div class="container">
+    <a routerLink="/home" class="navbar-brand">
+      <i class="fa-solid fa-graduation-cap"></i>
+      Ogr Medya
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul *ngIf="loggedIn()" class="navbar-nav me-auto">
+        <li class="navbar-nav">
+          <a routerLink="/members" routerLinkActive="active" class="nav-link">Üyeler</a>
+        </li>
+        <li class="navbar-nav">
+          <a routerLink="/friends" routerLinkActive="active" class="nav-link">Takip Ettiklerim</a>
+        </li>
+        <!-- <li class="navbar-nav">
+          <a routerLink="/messages" routerLinkActive="active" class="nav-link">Mesajlar</a>
+        </li> -->
+      </ul>
+
+      <ul *ngIf="loggedIn()" class="navbar-nav ms-auto">
+        <li class="navbar-nav">
+          <a routerLink="/member-detail" class="nav-link active text-capitalize">{{authService.getUsername()}}</a>
+        </li>
+        <li class="navbar-nav">
+          <a routerLink="/home" class="nav-link" (click)="logout()">Çıkış</a>
+        </li>
+      </ul>
+
+      <ul *ngIf="!loggedIn()" class="navbar-nav ms-auto">
+        <form class="d-flex" [formGroup]="loginForm" (ngSubmit)="login()">
+          <input formControlName="username" class="form-control me-2" type="text" placeholder="Kullanıcı Adı">
+          <input formControlName="password" class="form-control me-2" type="password" placeholder="Şifre">
+          <button class="btn btn-success" type="submit">Giriş</button>
+        </form>
+      </ul>
+    </div>
+
+  </div>
+</div>

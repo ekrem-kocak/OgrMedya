@@ -1,0 +1,80 @@
+.post-message {
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+
+  .post-message-header {
+    width:100%;
+    display: flex;
+    align-items: center;
+
+    form {
+      flex:1;
+    }
+
+    form > textarea.on-your-mind {
+      background-color: #F0F2F5;
+      display: inline-block;
+      outline: none;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      width: 100%;
+    }
+  }
+}
+
+.card-body {
+  display: flex;
+  justify-content: flex-start;
+  // padding: 10px 40px;
+  // width: 90%;
+  margin-top: 5px;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+    gap: 10px;
+
+    mat-icon {
+      //font-size: xx-large;
+    }
+
+    span {
+      //font-size: 18px;
+    }
+
+  }
+}
+
+.img-wrap {
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+.img-wrap .close {
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  z-index: 100;
+  background-color: #FFF;
+  padding: 5px 2px 2px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: .9;
+  text-align: center;
+  font-size: 22px;
+  line-height: 10px;
+  border-radius: 50%;
+  transition: opacity 0.4s;
+
+  &:hover{
+    opacity: .6;
+  }
+}

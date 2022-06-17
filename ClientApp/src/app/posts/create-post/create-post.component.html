@@ -1,0 +1,34 @@
+<div class="container">
+  <mat-card class="post-message mx-auto">
+    <mat-card-header class="post-message-header" style="padding-bottom: 20px; border-bottom: 1px solid lightgray;">
+      <img alt="" mat-card-avatar [src]="profileImgUrl">
+      <form [formGroup]="myform">
+        <textarea class="on-your-mind" name="message" placeholder="Aklından ne geçiyor?" type="text"
+          formControlName="area"></textarea>
+        <button style="display: none;" type="submit"></button>
+      </form>
+
+    </mat-card-header>
+    <div class="row mt-3">
+      <div class="img-wrap me-2 mb-2" *ngFor="let p of photos">
+        <span class="close" (click)="removePhoto(p)">&times;</span>
+        <img class="rounded img-fluid" style="max-height: 180px;" [src]="p" alt="">
+      </div>
+    </div>
+    <mat-card-content class="card-body">
+      <div>
+        <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;"
+          accept="image/*">
+        <button type="button" class="btn btn-link d-flex align-items-center" style="text-decoration: none;"
+          (click)="file.click()">
+          <mat-icon color="white" class="me-2">photo_album</mat-icon>
+          Fotoğraf Ekle
+        </button>
+      </div>
+    </mat-card-content>
+    <button class="btn btn-primary" (click)="postCreate()">
+      <span>Paylaş</span>
+      <i class="fa-solid fa-upload ms-2"></i>
+    </button>
+  </mat-card>
+</div>

@@ -1,0 +1,11 @@
+#registerFormContainer p{
+  margin-bottom: 0px !important;
+}
+
+.form-control.ng-dirty.ng-invalid{
+  border-left: 4px solid #E74C3C;
+}
+
+.form-control.ng-dirty.ng-valid{
+  border-left: 4px solid #28B463;
+}

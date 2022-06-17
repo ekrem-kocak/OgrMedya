@@ -1,0 +1,51 @@
+<ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+
+<div class="container" >
+  <div class="row mb-3">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+
+          <div class="form-check form-check-inline">
+            <input type="radio" id="radioFollowers" name="radioFollows" class="form-check-input" value="followings"
+              [(ngModel)]="followParams" (change)="getUsers()">
+            <label class="form-check-label" for="radioFollowers">Takip Edilenler</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="radio" id="radioFollowings" name="radioFollows" class="form-check-input" value="followers"
+              [(ngModel)]="followParams" (change)="getUsers()">
+            <label class="form-check-label" for="radioFollowings">Takipçiler</label>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="user-list" *ngIf="users.length > 0 else noFollowers">
+    <div class="row">
+      <div *ngFor="let user of users" class="col-lg-3 col-md-4 col-sm-6">
+        <div class="user-profile-info">
+          <div class="user-up-info">
+            <img src="{{user.profileImageUrl}}" alt="" style="border-radius: 50%; height: 150px; width: 150px; object-fit: cover;">>
+            <h3 class="text-capitalize">{{ user.name }}</h3>
+            <h4 class="mb-1 text-capitalize">{{ user.universityName.toLowerCase() }}</h4>
+            <h5 class="mb-0">{{ user.department }}</h5>
+            <h5>{{user.class}}.sınıf</h5>
+            <button class="btn btn-outline-danger btn-sm" (click)="unfollow(user.id)" *ngIf="followParams=='followings'">
+              <i class="fa-solid fa-user-minus me-1"></i>
+              Takipten Çık
+            </button>
+          </div>
+          <a routerLink="/members/{{user.id}}" class="view-more">Profile Git</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noFollowers>
+  <div class="alert alert-danger">
+    Listeniz Boş
+  </div>
+</ng-template>

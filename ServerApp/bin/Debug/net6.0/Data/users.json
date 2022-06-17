@@ -1,0 +1,80 @@
+[
+  {
+    "Username": "Elba",
+    "Email": "elbacote@equitox.com",
+    "Gender": "female",
+    "DateOfBirth": "1995-07-08",
+    "Password": "password",
+    "Name": "Elba",
+    "Created": "2019-03-29",
+    "LastActive": "2019-03-29",
+    "UniversityName": "Alanya Alaaddin Keykubat Üniversitesi",
+    "Department": "Bilgisayar Mühendisliği",
+    "Class": "2",
+    "ProfileImageUrl": "https://randomuser.me/api/portraits/women/38.jpg",
+    "Introduction": "Laborum aute minim Lorem ea occaecat ipsum anim fugiat cupidatat sint elit incididunt eiusmod. Dolore incididunt mollit cillum incididunt irure adipisicing irure culpa tempor reprehenderit quis dolore. Quis id aliquip consectetur ipsum aliquip fugiat labore duis. Et velit ad adipisicing cupidatat minim consequat duis cupidatat tempor reprehenderit dolore proident reprehenderit.\r\n",
+    "Posts": [
+      {
+        "Context": "saasdsdasadsd",
+        "Images": [
+          {
+            "Url": "1.jpg"
+          },
+          {
+            "Url": "2.jpg"
+          }
+        ]
+      },
+      {
+        "Context": "saasdsdasaddssddssd",
+        "Images": [
+          {
+            "Url": "3.jpg"
+          },
+          {
+            "Url": "4.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Username": "Tamika",
+    "Email": "tamikacote@equitox.com",
+    "Gender": "female",
+    "DateOfBirth": "1975-02-14",
+    "Password": "password",
+    "Name": "Tamika",
+    "Created": "2019-04-11",
+    "LastActive": "2019-04-11",
+    "UniversityName": "Gazi Üniversitesi",
+    "Department": "Endüstri Mühendisliği",
+    "Class": "3",
+    "ProfileImageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+    "Introduction": "Lorem eu veniam ipsum consectetur sit minim anim proident pariatur ullamco excepteur. Elit aliqua occaecat mollit velit ut reprehenderit sunt laboris consectetur mollit culpa cillum tempor. Pariatur magna voluptate exercitation nulla. Sunt eiusmod aute velit incididunt eiusmod quis et occaecat. Lorem quis qui ullamco Lorem nisi sit do labore irure.\r\n",
+    "Posts": [
+      {
+        "Context": "saasdsdasadsd",
+        "Images": [
+          {
+            "Url": "1.jpg"
+          },
+          {
+            "Url": "2.jpg"
+          }
+        ]
+      },
+      {
+        "Context": "saasdsdasaddssddssd",
+        "Images": [
+          {
+            "Url": "3.jpg"
+          },
+          {
+            "Url": "4.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

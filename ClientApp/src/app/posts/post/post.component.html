@@ -1,0 +1,39 @@
+<mat-card class="example-card" id="mat-card-{{item.id}}">
+  <mat-card-header (click)="route(user?.id)" style="cursor: pointer;">
+    <div mat-card-avatar>
+      <img src="{{user?.profileImageUrl}}" alt="" class="img-fluid">
+    </div>
+    <mat-card-title style="text-transform: capitalize;">{{user?.name}}</mat-card-title>
+    <mat-card-subtitle>{{user?.universityName}}</mat-card-subtitle>
+    <mat-card-subtitle>{{user?.department}} {{user?.class}}.sınıf</mat-card-subtitle>
+  </mat-card-header>
+
+  <ngb-carousel *ngIf="item.images" [showNavigationArrows]="item.images.length > 1 ? true:false">
+    <ng-template ngbSlide *ngFor="let i of item.images">
+      <div class="picsum-img-wrapper" (click)="openContent()" style="cursor: pointer;">
+        <img [src]="i.url" alt="Random first slide">
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+  <mat-card-content class="mt-3">
+    <p>
+      {{item.context}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions class="ps-2 mb-2 d-flex align-items-center">
+    <div class="me-3" style="color: #212529; font-size: 1rem;">
+      <i class="fa-solid fa-hands-clapping"></i>
+      + <span>{{item.likeCount}}</span>
+    </div>
+    <button [ngClass]="{'btn-success':!isLikedPost(item.id),'btn-danger':isLikedPost(item.id) }"
+      class="btn btn-sm d-flex align-items-center" (click)="like($event)">
+      <i class="fa-solid fa-hands-clapping me-2" style="pointer-events: none;"></i>
+      <span style="pointer-events: none;" *ngIf="!isLikedPost(item.id)">+1</span>
+      <span style="pointer-events: none;" *ngIf="isLikedPost(item.id)">-1</span>
+    </button>
+    <button *ngIf="isShowDeleteButton(item)" class="btn btn-sm btn-secondary me-2" (click)="deletePost(item.id)"
+      style="margin-left: auto;">Gönderiyi
+      Sil</button>
+  </mat-card-actions>
+</mat-card>

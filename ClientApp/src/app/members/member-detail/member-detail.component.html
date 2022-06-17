@@ -1,0 +1,53 @@
+<div class="container mt-3" *ngIf="user">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="img-container mx-auto">
+          <img src="{{user.profileImageUrl}}" class="card-img-top img-thumbnail" alt="{{user.name}}"
+            style="border-radius:50%; width: 400px; height: 400px; object-fit: cover;">
+        </div>
+        <div class="card-body">
+          <h2 style="text-transform: capitalize;">{{user.name}}</h2>
+          <div>
+            <strong>Okul Bilgileri</strong>
+            <p class="text-capitalize">{{user.universityName}}</p>
+            <p>{{user?.department}} {{user.class}}. sınıf</p>
+          </div>
+          <div>
+            <strong>Son Görülme</strong>
+            <p>{{user.lastActive | timeago}}</p>
+          </div>
+          <div>
+            <button class="btn btn-sm btn-warning" (click)="routeEdit(user.id)">Bilgileri Güncelle</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="card mb-3" *ngIf="user.introduction.length > 0">
+        <div class="card-body">
+          <h2 class="card-title">Hakkında</h2>
+          <p>
+            {{user.introduction}}
+          </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="card-title">Gönderiler</h2>
+
+          <div class="alert alert-warning py-2" *ngIf="userPosts.length == 0">
+            Henüz bir gönderi paylaşmadınız..
+          </div>
+          <button *ngIf="userPosts.length != 0" routerLink="/home"class="btn btn-primary">Hemen Bir Gönderi Paylaş</button>
+
+          <div class="row">
+            <div class="col-6 mb-3" *ngFor="let p of userPosts">
+              <app-post [item]="p"></app-post>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

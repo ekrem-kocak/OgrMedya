@@ -1,0 +1,34 @@
+<div class="container mt-3" *ngIf="user">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="img-container">
+          <img src="{{user.profileImageUrl}}" class="card-img-top img-thumbnail" alt="{{user.name}}"
+            style="border-radius:50%;">
+        </div>
+        <div class="card-body">
+          <div>
+            <strong>Okul Bilgileri</strong>
+            <p class="text-capitalize">{{user.universityName}}</p>
+            <p>{{user?.department}}</p>
+            <p>{{user.class}}. sınıf</p>
+          </div>
+          <div>
+            <strong>Last Active</strong>
+            <p>{{user.lastActive}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h3 class="card-title">Hakkında</h3>
+          <p>
+            {{user.introduction}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

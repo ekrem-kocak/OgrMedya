@@ -1,0 +1,28 @@
+// .example-card {
+//   max-width: 400px;
+// }
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.picsum-img-wrapper img{
+  height: 200px;
+  width: 100%;
+  object-fit:cover !important;
+}
+
+#likeButton.btn-danger{
+
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+#likeButton.btn-success{
+
+  &:focus{
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,65 @@
+<div class="container mt-3" *ngIf="user && followText.length > 0">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="img-container">
+          <img src="{{user.profileImageUrl}}" class="card-img-top img-thumbnail" alt="{{user.name}}"
+          style="border-radius:50%; width: 400px; height: 400px; object-fit: cover;">
+        </div>
+        <div class="card-body">
+          <h2 style="text-transform: capitalize;">{{user.name}}</h2>
+          <div>
+            <strong>Okul Bilgileri</strong>
+            <p class="text-capitalize">{{user.universityName}}</p>
+            <p>{{user?.department}}</p>
+            <p>{{user.class}}. sınıf</p>
+          </div>
+          <div>
+            <strong>Son Görülme</strong>
+            <p>{{user.lastActive | timeago}} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="float-start">
+            <h2 class="text-capitalize">{{ user.name }}</h2>
+          </div>
+          <div class="btn-group float-end" role="group">
+            <button id="mybutton" type="button" [className]="followText=='Takip Et'?'btn btn-primary':'btn btn-danger'"
+              (click)="followOrUnfollow(user.id,$event)">
+              <span>{{followText}}</span>
+            </button>
+            <!-- <button type="button" class="btn btn-success ms-2">Mesaj Gönder</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" *ngIf="user.introduction.length > 0">
+        <div class="card-body">
+          <h2 class="card-title">Hakkında</h2>
+          <p>
+            {{user.introduction}}
+          </p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="card-title">Gönderiler</h2>
+          <div class="row">
+            <div class="alert alert-warning py-2" *ngIf="userPosts.length == 0">
+              Bu kullanıcı henüz gönderi paylaşmadı..
+            </div>
+
+            <div class="col-6 mb-3" *ngFor="let p of userPosts">
+              <app-post [item]="p"></app-post>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

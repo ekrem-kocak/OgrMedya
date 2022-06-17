@@ -1,0 +1,5 @@
+<register *ngIf="!loggedIn"></register>
+<div *ngIf="loggedIn">
+  <app-create-post></app-create-post>
+  <app-posts></app-posts>
+</div>
